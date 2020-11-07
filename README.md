@@ -8,5 +8,5 @@
 ###pytest第一次作业
 目录：./pytest_learn/tests
 
-###selenium第一次作业
+###selenium作业
 目录：./my_selenium
