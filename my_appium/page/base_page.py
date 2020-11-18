@@ -1,8 +1,6 @@
 import logging
-
 from appium.webdriver.common.mobileby import MobileBy
 from appium.webdriver.webdriver import WebDriver
-# from common.get_log import log
 
 class BasePage():
     logging.basicConfig(level=logging.INFO,
@@ -15,20 +13,15 @@ class BasePage():
         self.driver = driver
 
     def find(self, by, locator):
-        # log.info("find:")
         logging.info("find:")
         logging.info(by)
-        # log.info(locator)
         logging.info(locator)
-
         return self.driver.find_element(by, locator)
 
     def find_elements(self, by, locator):
         logging.info("find_elements:")
-        # log.info("find_elements:")
         logging.info(by)
         logging.info(locator)
-        # log.info(locator)
 
         return self.driver.find_elements(by, locator)
 
