@@ -1,12 +1,18 @@
-###第一次作业
+###测试框架作业
+目录./framework
 
-目录：./python_learning
-###第二次作业
+###appium作业
+目录：./my_appium
 
-目录：./class_learning
+###selenium作业
+目录：./my_selenium
 
 ###pytest第一次作业
 目录：./pytest_learn/tests
 
-###selenium作业
-目录：./my_selenium
+###第二次作业
+目录：./class_learning
+
+###第一次作业
+目录：./python_learning
+

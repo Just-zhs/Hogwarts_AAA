@@ -1,0 +1,117 @@
+2020-11-21 01:37:56,916 test_demo.py[line:26] INFO 开始启动浏览器
+2020-11-21 01:37:57,452 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51272/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-11-21 01:37:57,453 connectionpool.py[line:230] DEBUG Starting new HTTP connection (1): 127.0.0.1:51272
+2020-11-21 01:37:59,999 connectionpool.py[line:442] DEBUG http://127.0.0.1:51272 "POST /session HTTP/1.1" 200 718
+2020-11-21 01:37:59,999 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:37:59,999 test_demo.py[line:31] INFO 启动chrome浏览器成功
+2020-11-21 01:38:00,000 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51272/session/1457cfde66487fd3a76d1bde1ad0c5f4/url {"url": "https://ceshiren.com/"}
+2020-11-21 01:38:01,042 connectionpool.py[line:442] DEBUG http://127.0.0.1:51272 "POST /session/1457cfde66487fd3a76d1bde1ad0c5f4/url HTTP/1.1" 200 14
+2020-11-21 01:38:01,042 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:01,042 test_demo.py[line:42] INFO 获取地址https://ceshiren.com/
+2020-11-21 01:38:01,042 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51272/session/1457cfde66487fd3a76d1bde1ad0c5f4/element {"using": "css selector", "value": "[id=\"search-button\"]"}
+2020-11-21 01:38:01,056 connectionpool.py[line:442] DEBUG http://127.0.0.1:51272 "POST /session/1457cfde66487fd3a76d1bde1ad0c5f4/element HTTP/1.1" 404 1061
+2020-11-21 01:38:01,057 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:01,124 test_demo.py[line:26] INFO 开始启动浏览器
+2020-11-21 01:38:01,667 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51295/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-11-21 01:38:01,668 connectionpool.py[line:230] DEBUG Starting new HTTP connection (1): 127.0.0.1:51295
+2020-11-21 01:38:04,265 connectionpool.py[line:442] DEBUG http://127.0.0.1:51295 "POST /session HTTP/1.1" 200 720
+2020-11-21 01:38:04,266 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:04,266 test_demo.py[line:31] INFO 启动chrome浏览器成功
+2020-11-21 01:38:04,266 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51295/session/fc1e492adc8e5d7896bed68cb9fd704e/url {"url": "https://ceshiren.com/"}
+2020-11-21 01:38:05,528 connectionpool.py[line:442] DEBUG http://127.0.0.1:51295 "POST /session/fc1e492adc8e5d7896bed68cb9fd704e/url HTTP/1.1" 200 14
+2020-11-21 01:38:05,528 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:05,528 test_demo.py[line:42] INFO 获取地址https://ceshiren.com/
+2020-11-21 01:38:05,528 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51295/session/fc1e492adc8e5d7896bed68cb9fd704e/element {"using": "css selector", "value": "[id=\"search-button\"]"}
+2020-11-21 01:38:05,540 connectionpool.py[line:442] DEBUG http://127.0.0.1:51295 "POST /session/fc1e492adc8e5d7896bed68cb9fd704e/element HTTP/1.1" 200 88
+2020-11-21 01:38:05,541 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:05,541 test_demo.py[line:54] INFO 查找元素id search-button
+2020-11-21 01:38:05,541 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51295/session/fc1e492adc8e5d7896bed68cb9fd704e/element/7f06913a-fb3a-4a7f-9063-a6ad629ad225/click {"id": "7f06913a-fb3a-4a7f-9063-a6ad629ad225"}
+2020-11-21 01:38:05,634 connectionpool.py[line:442] DEBUG http://127.0.0.1:51295 "POST /session/fc1e492adc8e5d7896bed68cb9fd704e/element/7f06913a-fb3a-4a7f-9063-a6ad629ad225/click HTTP/1.1" 200 14
+2020-11-21 01:38:05,635 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:05,635 test_demo.py[line:59] INFO 点击
+2020-11-21 01:38:05,635 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51295/session/fc1e492adc8e5d7896bed68cb9fd704e/element {"using": "css selector", "value": "[id=\"search-term\"]"}
+2020-11-21 01:38:05,644 connectionpool.py[line:442] DEBUG http://127.0.0.1:51295 "POST /session/fc1e492adc8e5d7896bed68cb9fd704e/element HTTP/1.1" 200 88
+2020-11-21 01:38:05,644 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:05,644 test_demo.py[line:54] INFO 查找元素id search-term
+2020-11-21 01:38:05,644 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51295/session/fc1e492adc8e5d7896bed68cb9fd704e/element/3b37a1e8-1120-4b2c-86ff-18e1a4572f3c/value {"text": "selenium", "value": ["s", "e", "l", "e", "n", "i", "u", "m"], "id": "3b37a1e8-1120-4b2c-86ff-18e1a4572f3c"}
+2020-11-21 01:38:05,739 connectionpool.py[line:442] DEBUG http://127.0.0.1:51295 "POST /session/fc1e492adc8e5d7896bed68cb9fd704e/element/3b37a1e8-1120-4b2c-86ff-18e1a4572f3c/value HTTP/1.1" 200 14
+2020-11-21 01:38:05,739 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:05,739 test_demo.py[line:74] INFO 输入selenium
+2020-11-21 01:38:05,746 test_demo.py[line:26] INFO 开始启动浏览器
+2020-11-21 01:38:06,261 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51329/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-11-21 01:38:06,261 connectionpool.py[line:230] DEBUG Starting new HTTP connection (1): 127.0.0.1:51329
+2020-11-21 01:38:08,865 connectionpool.py[line:442] DEBUG http://127.0.0.1:51329 "POST /session HTTP/1.1" 200 719
+2020-11-21 01:38:08,866 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:08,866 test_demo.py[line:31] INFO 启动chrome浏览器成功
+2020-11-21 01:38:08,866 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51329/session/51cfc4867b924711ebf4111efb961fb4/url {"url": "https://ceshiren.com/"}
+2020-11-21 01:38:10,111 connectionpool.py[line:442] DEBUG http://127.0.0.1:51329 "POST /session/51cfc4867b924711ebf4111efb961fb4/url HTTP/1.1" 200 14
+2020-11-21 01:38:10,112 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:10,112 test_demo.py[line:42] INFO 获取地址https://ceshiren.com/
+2020-11-21 01:38:10,112 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51329/session/51cfc4867b924711ebf4111efb961fb4/element {"using": "css selector", "value": "[id=\"search-button\"]"}
+2020-11-21 01:38:10,128 connectionpool.py[line:442] DEBUG http://127.0.0.1:51329 "POST /session/51cfc4867b924711ebf4111efb961fb4/element HTTP/1.1" 200 88
+2020-11-21 01:38:10,129 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:10,129 test_demo.py[line:54] INFO 查找元素id search-button
+2020-11-21 01:38:10,129 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51329/session/51cfc4867b924711ebf4111efb961fb4/element/28ec2f75-3299-450a-9a9e-87f7e6325723/click {"id": "28ec2f75-3299-450a-9a9e-87f7e6325723"}
+2020-11-21 01:38:10,191 connectionpool.py[line:442] DEBUG http://127.0.0.1:51329 "POST /session/51cfc4867b924711ebf4111efb961fb4/element/28ec2f75-3299-450a-9a9e-87f7e6325723/click HTTP/1.1" 200 14
+2020-11-21 01:38:10,192 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:10,192 test_demo.py[line:59] INFO 点击
+2020-11-21 01:38:10,192 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51329/session/51cfc4867b924711ebf4111efb961fb4/element {"using": "css selector", "value": "[id=\"search-term\"]"}
+2020-11-21 01:38:10,202 connectionpool.py[line:442] DEBUG http://127.0.0.1:51329 "POST /session/51cfc4867b924711ebf4111efb961fb4/element HTTP/1.1" 200 88
+2020-11-21 01:38:10,202 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:10,203 test_demo.py[line:54] INFO 查找元素id search-term
+2020-11-21 01:38:10,203 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51329/session/51cfc4867b924711ebf4111efb961fb4/element/7ccb846d-b200-4b2b-9479-90847f91c224/value {"text": "requests", "value": ["r", "e", "q", "u", "e", "s", "t", "s"], "id": "7ccb846d-b200-4b2b-9479-90847f91c224"}
+2020-11-21 01:38:10,293 connectionpool.py[line:442] DEBUG http://127.0.0.1:51329 "POST /session/51cfc4867b924711ebf4111efb961fb4/element/7ccb846d-b200-4b2b-9479-90847f91c224/value HTTP/1.1" 200 14
+2020-11-21 01:38:10,294 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:10,294 test_demo.py[line:74] INFO 输入requests
+2020-11-21 01:38:14,387 test_demo.py[line:26] INFO 开始启动浏览器
+2020-11-21 01:38:14,940 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51361/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-11-21 01:38:14,940 connectionpool.py[line:230] DEBUG Starting new HTTP connection (1): 127.0.0.1:51361
+2020-11-21 01:38:17,482 connectionpool.py[line:442] DEBUG http://127.0.0.1:51361 "POST /session HTTP/1.1" 200 719
+2020-11-21 01:38:17,483 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:17,483 test_demo.py[line:31] INFO 启动chrome浏览器成功
+2020-11-21 01:38:17,483 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51361/session/09e90ab9a2812892b14ed1eaf2dea055/url {"url": "https://ceshiren.com/"}
+2020-11-21 01:38:18,507 connectionpool.py[line:442] DEBUG http://127.0.0.1:51361 "POST /session/09e90ab9a2812892b14ed1eaf2dea055/url HTTP/1.1" 200 14
+2020-11-21 01:38:18,508 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:18,508 test_demo.py[line:42] INFO 获取地址https://ceshiren.com/
+2020-11-21 01:38:18,508 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51361/session/09e90ab9a2812892b14ed1eaf2dea055/element {"using": "css selector", "value": "[id=\"search-button\"]"}
+2020-11-21 01:38:18,520 connectionpool.py[line:442] DEBUG http://127.0.0.1:51361 "POST /session/09e90ab9a2812892b14ed1eaf2dea055/element HTTP/1.1" 200 88
+2020-11-21 01:38:18,521 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:18,521 test_demo.py[line:54] INFO 查找元素id search-button
+2020-11-21 01:38:18,521 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51361/session/09e90ab9a2812892b14ed1eaf2dea055/element/7b0cf54b-7279-4cc0-aba6-3a4a53cfda13/click {"id": "7b0cf54b-7279-4cc0-aba6-3a4a53cfda13"}
+2020-11-21 01:38:18,593 connectionpool.py[line:442] DEBUG http://127.0.0.1:51361 "POST /session/09e90ab9a2812892b14ed1eaf2dea055/element/7b0cf54b-7279-4cc0-aba6-3a4a53cfda13/click HTTP/1.1" 200 14
+2020-11-21 01:38:18,594 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:18,594 test_demo.py[line:59] INFO 点击
+2020-11-21 01:38:18,594 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51361/session/09e90ab9a2812892b14ed1eaf2dea055/element {"using": "css selector", "value": "[id=\"search-term\"]"}
+2020-11-21 01:38:18,605 connectionpool.py[line:442] DEBUG http://127.0.0.1:51361 "POST /session/09e90ab9a2812892b14ed1eaf2dea055/element HTTP/1.1" 200 88
+2020-11-21 01:38:18,605 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:18,605 test_demo.py[line:54] INFO 查找元素id search-term
+2020-11-21 01:38:18,606 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51361/session/09e90ab9a2812892b14ed1eaf2dea055/element/42fcce4e-6ecc-4d5c-901c-c94e8676f9fa/value {"text": "\u6d4b\u8bd5\u5f00\u53d1", "value": ["\u6d4b", "\u8bd5", "\u5f00", "\u53d1"], "id": "42fcce4e-6ecc-4d5c-901c-c94e8676f9fa"}
+2020-11-21 01:38:18,657 connectionpool.py[line:442] DEBUG http://127.0.0.1:51361 "POST /session/09e90ab9a2812892b14ed1eaf2dea055/element/42fcce4e-6ecc-4d5c-901c-c94e8676f9fa/value HTTP/1.1" 200 14
+2020-11-21 01:38:18,657 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:18,657 test_demo.py[line:74] INFO 输入测试开发
+2020-11-21 01:38:18,662 test_demo.py[line:26] INFO 开始启动浏览器
+2020-11-21 01:38:19,171 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51383/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-11-21 01:38:19,171 connectionpool.py[line:230] DEBUG Starting new HTTP connection (1): 127.0.0.1:51383
+2020-11-21 01:38:21,728 connectionpool.py[line:442] DEBUG http://127.0.0.1:51383 "POST /session HTTP/1.1" 200 720
+2020-11-21 01:38:21,728 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:21,729 test_demo.py[line:31] INFO 启动chrome浏览器成功
+2020-11-21 01:38:21,729 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51383/session/576e78c00b4b5d6ea1f380db22d2c91f/url {"url": "https://ceshiren.com/"}
+2020-11-21 01:38:23,007 connectionpool.py[line:442] DEBUG http://127.0.0.1:51383 "POST /session/576e78c00b4b5d6ea1f380db22d2c91f/url HTTP/1.1" 200 14
+2020-11-21 01:38:23,007 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:23,007 test_demo.py[line:42] INFO 获取地址https://ceshiren.com/
+2020-11-21 01:38:23,007 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51383/session/576e78c00b4b5d6ea1f380db22d2c91f/element {"using": "css selector", "value": "[id=\"search-button\"]"}
+2020-11-21 01:38:23,021 connectionpool.py[line:442] DEBUG http://127.0.0.1:51383 "POST /session/576e78c00b4b5d6ea1f380db22d2c91f/element HTTP/1.1" 200 88
+2020-11-21 01:38:23,021 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:23,021 test_demo.py[line:54] INFO 查找元素id search-button
+2020-11-21 01:38:23,021 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51383/session/576e78c00b4b5d6ea1f380db22d2c91f/element/bfe14851-916c-4129-9808-aff5b09910e0/click {"id": "bfe14851-916c-4129-9808-aff5b09910e0"}
+2020-11-21 01:38:23,097 connectionpool.py[line:442] DEBUG http://127.0.0.1:51383 "POST /session/576e78c00b4b5d6ea1f380db22d2c91f/element/bfe14851-916c-4129-9808-aff5b09910e0/click HTTP/1.1" 200 14
+2020-11-21 01:38:23,098 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:23,098 test_demo.py[line:59] INFO 点击
+2020-11-21 01:38:23,099 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51383/session/576e78c00b4b5d6ea1f380db22d2c91f/element {"using": "css selector", "value": "[id=\"search-term\"]"}
+2020-11-21 01:38:23,116 connectionpool.py[line:442] DEBUG http://127.0.0.1:51383 "POST /session/576e78c00b4b5d6ea1f380db22d2c91f/element HTTP/1.1" 200 88
+2020-11-21 01:38:23,116 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:23,116 test_demo.py[line:54] INFO 查找元素id search-term
+2020-11-21 01:38:23,117 remote_connection.py[line:388] DEBUG POST http://127.0.0.1:51383/session/576e78c00b4b5d6ea1f380db22d2c91f/element/97d9b846-2338-49a8-abb4-bb4ca16e20b8/value {"text": "\u6027\u80fd\u6d4b\u8bd5", "value": ["\u6027", "\u80fd", "\u6d4b", "\u8bd5"], "id": "97d9b846-2338-49a8-abb4-bb4ca16e20b8"}
+2020-11-21 01:38:23,184 connectionpool.py[line:442] DEBUG http://127.0.0.1:51383 "POST /session/576e78c00b4b5d6ea1f380db22d2c91f/element/97d9b846-2338-49a8-abb4-bb4ca16e20b8/value HTTP/1.1" 200 14
+2020-11-21 01:38:23,184 remote_connection.py[line:440] DEBUG Finished Request
+2020-11-21 01:38:23,184 test_demo.py[line:74] INFO 输入性能测试
