@@ -105,16 +105,29 @@ class TaskService(Resource):
        /task.json {'testcases':[1,2,3,4]}
        :return:
        """
-        testcases_id = request.json.get('testcases')
-        task = Task(
-            testcases=json.dumps(testcases_id),
-        )
-        db.session.add(task)
-        db.session.commit()
+        id = request.json.get('id')
+        if id and Task.query.get(id):
+            # task = Task.query.get(id)
+            # print(task.id,task.testcases)
+            new_testcases = json.dumps(request.json.get('testcases'))
+            Task.query.filter(Task.id == id).update({'testcases': new_testcases})
+            db.session.commit()
+            return {
+                'msg': "ok",
+            }
+        else:
 
-        return {
-            'msg': "ok",
-        }
+            testcases_id = request.json.get('testcases')
+            task = Task(
+                testcases=json.dumps(testcases_id),
+            )
+            db.session.add(task)
+            db.session.commit()
+
+            return {
+                'msg': "ok",
+            }
+
 
     def delete(self):
         """

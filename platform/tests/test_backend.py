@@ -26,8 +26,8 @@ def test_task_post():
     r = requests.post(
         task_url,
         json={
-
-            'testcases': ['1', '2', '3']
+            'id': 1,
+            'testcases': ['1', '2', '2']
 
         }
 
@@ -35,16 +35,16 @@ def test_task_post():
     assert r.status_code == 200
     assert r.json()['msg'] == 'ok'
 
+
 def test_task_delete():
     task_url = 'http://127.0.0.1:5000/task'
     r = requests.delete(
         task_url,
         json={
-            'id': 5
+            'id': 10
         }
 
     )
     assert r.status_code == 200
     # assert r.json()['msg'] == 'ok'
     print(r.json()['msg'])
-
