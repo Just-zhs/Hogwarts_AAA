@@ -1,3 +1,6 @@
+###测试平台作业
+目录./platform
+
 ###Api框架作业
 目录./ApiTest
 
